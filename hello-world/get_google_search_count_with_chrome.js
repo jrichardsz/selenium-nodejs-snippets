@@ -16,7 +16,7 @@ async function start() {
 
   await driver.get('http://www.google.com');
   var searchBox = await driver.findElement(webdriver.By.name('q'));
-  await searchBox.sendKeys('jrichardsz', Key.RETURN);
+  await searchBox.sendKeys('JRichardsz.java', Key.RETURN);
 
   await driver.wait(until.elementIsVisible(driver.findElement(By.id("result-stats"))),3000);
 

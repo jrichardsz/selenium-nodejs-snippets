@@ -1,0 +1,16 @@
+{
+  "name": "hello-world",
+  "version": "1.0.0",
+  "description": "",
+  "main": "search_on_google_with_firefox.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chromedriver": "^96.0.0",
+    "geckodriver": "^2.0.4",
+    "selenium-webdriver": "^4.1.0"
+  }
+}

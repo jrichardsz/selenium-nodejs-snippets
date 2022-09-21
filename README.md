@@ -6,21 +6,13 @@ Simple collection of ready to use selenium samples with nodejs
 ## Requirements
 
 - node >=14
-- chrome or firefox installed. Its version is directly related to the driver version on package.json
-
-## Driver downloads
-
-- chrome: https://chromedriver.chromium.org/downloads
-  - In chrome there is an option to install the exact driver version for your installed chrome:
-  - `npm install chromedriver --detect_chromedriver_version`
-- firefox:  https://github.com/mozilla/geckodriver/releases
-
+- chrome installed. If you are a pro, use [firefox](https://github.com/mozilla/geckodriver/releases) :b
 
 ## Samples
 
 | description | link |
 |--|--|
-|simple searchs on google | [/hello-world](./hello-world) |
+|simple searches on google | [/hello-world](./hello-world) |
 
 
 # Contributors
