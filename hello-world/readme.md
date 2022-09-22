@@ -1,6 +1,6 @@
 # Requirements
 
-- chrome: https://chromedriver.chromium.org/downloads
+- chrome
 - nodejs >= 14
 
 # Libraries
