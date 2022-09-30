@@ -3,16 +3,41 @@
 
 Simple collection of ready to use selenium samples with nodejs
 
-## Requirements
+# Requirements
 
-- node >=14
-- chrome installed. If you are a pro, use [firefox](https://github.com/mozilla/geckodriver/releases) :b
+- chromeor or firefox
+- nodejs >= 14
+
+# For Chrome
+
+Go to example folder
+
+```
+export BROWSER=chrome
+npm install chromedriver --detect_chromedriver_version
+npm install
+```
+
+# For Firefox
+
+- Go to example folder
+- find the version of your firefox
+- search the compatible version of geckodriver here https://firefox-source-docs.mozilla.org/testing/geckodriver/Support.html
+- download the driver https://github.com/mozilla/geckodriver/releases
+
+```
+export BROWSER=firefox
+export FIREFOX_SELENIUM_DRIVER_PATH=/foo/bar/geckodriver
+npm install geckodriver@x.y.z
+npm install
+```
+
 
 ## Samples
 
 | description | link |
 |--|--|
-|simple searches on google | [/hello-world](./hello-world) |
+|simple searches on google | [/01_search_on_google-world](./01_search_on_google) |
 
 
 # Contributors

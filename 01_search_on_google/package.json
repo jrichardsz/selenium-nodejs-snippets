@@ -9,8 +9,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "chromedriver": "^96.0.0",
-    "geckodriver": "^2.0.4",
-    "selenium-webdriver": "^4.1.0"
+    "chromedriver": "^106.0.1",
+    "commander": "^9.4.0",
+    "selenium-webdriver": "4.1.0"
   }
 }

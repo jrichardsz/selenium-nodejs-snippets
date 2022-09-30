@@ -1,18 +1,13 @@
 var webdriver = require('selenium-webdriver');
-var chrome = require('selenium-webdriver/chrome');
-var driverPath = require('chromedriver').path;
+var SeleniumHelper = require('./SeleniumHelper.js');
+var seleniumHelper = new SeleniumHelper();
 var By = webdriver.By;
 var Key = webdriver.Key;
 var until = webdriver.until;
 
 async function start() {
 
-  var service = new chrome.ServiceBuilder(driverPath).build();
-  chrome.setDefaultService(service);
-
-  var driver = await new webdriver.Builder()
-  .withCapabilities(webdriver.Capabilities.chrome())
-  .build();
+  var driver = await seleniumHelper.getDriver();
 
   await driver.get('http://www.google.com');
   var searchBox = await driver.findElement(webdriver.By.name('q'));
