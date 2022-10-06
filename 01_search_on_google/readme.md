@@ -6,14 +6,15 @@
 # Libraries
 
 ```
-npm install
 npm install chromedriver --detect_chromedriver_version
+npm install
 ```
 
 # Examples
 
 | script| descripcion |
 |:--|:--|
-|`node search_on_google_with_chrome.js`|A simple search on google|
-|`node get_google_search_count_with_chrome.js`|Search a word and obtain the result count|
-|`node search_on_google_with_variable.js --word_to_search Java`|Receive a word as argument, search it on and print the first result count|
+|`node google_simple_search.js`|A simple search on google|
+|`node google_simple_search_with_variable.js --word_to_search Java`|Receive a word as argument, 
+search it on and print the first result count|
+|`node google_get_search_count.js`|Search a word and obtain the result count|
